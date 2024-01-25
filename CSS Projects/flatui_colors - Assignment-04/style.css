@@ -1,0 +1,165 @@
+.body {
+    background-color: rgb(48, 48, 221)
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10%;
+
+
+}
+
+.container>a>div {
+    border: 2px solid white;
+    width: 250px;
+    height: 170px;
+    margin: 25px 25px 25px 25px;
+    background-color: white;
+    box-shadow: 2px 2px 2px white;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container>a>div>span {
+    /* display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: right; */
+    margin-left: 40%;
+    color: black;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    cursor: auto;
+}
+
+/* OTHER PALETTE */
+
+.Aussie-Palette{
+    width: 250px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: black;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+} 
+.aussie-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.aussie-container>div {
+    width: 190px;
+    height: 130px;
+    position: relative;
+}
+.aussie-container div span{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    opacity: 0;
+    color: white;
+    border: 1px solid white;
+    box-shadow: rgb(161, 161, 161);
+    padding: 15px;
+    width: 50px;
+
+}
+.aussie-container div span:hover{
+    opacity: 1;
+}
+
+.div-1 {
+    background-color: #f6e58d;
+}
+
+.div-2 {
+    background-color: #ffbe76;
+}
+
+.div-3 {
+    background-color: #ff7979;
+}
+
+.div-4 {
+    background-color: #badc58;
+}
+
+.div-5 {
+    background-color: #dff9fb;
+}
+
+.div-6 {
+    background-color: #f9ca24;
+}
+
+.div-7 {
+    background-color: #f0932b;
+}
+
+.div-8 {
+    background-color: #eb4d4b;
+}
+
+.div-9 {
+    background-color: #6ab04c;
+}
+
+.div-10 {
+    background-color: #e056fd;
+}
+
+.div-11 {
+    background-color: #c7ecee;
+}
+
+.div-12 {
+    background-color: #7ed6df;
+}
+
+.div-13 {
+    background-color: #e056fd;
+}
+
+.div-14 {
+    background-color: #686de0;
+}
+
+.div-15 {
+    background-color: #30336b;
+}
+
+.div-16 {
+    background-color: #22a6b3;
+}
+
+.div-17 {
+    background-color: #95afc0;
+}
+
+.div-18 {
+    background-color: #be2edd;
+}
+
+.div-19 {
+    background-color: #130f40;
+}
+
+.div-20 {
+    background-color: #535c68;
+}

@@ -1,0 +1,70 @@
+
+.container{
+   width: 80%;
+   margin: 20px auto;
+}
+
+/* Begin Header Here */
+h1{
+        text-align: center;
+        font-size: 50px;
+}
+span.to{
+    color: red;
+}
+.top-alphabets{
+    text-align: center;
+    
+}
+.top-alphabets a{
+    padding: 10px;  
+    color: white;
+    background-color: black;
+    margin-top: 500px;
+    box-shadow: rgba(114, 108, 108, 0.24) 2px 6px 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+/* End Header here */
+
+html{
+    scroll-behavior: smooth;
+}
+main{
+    margin-top: 7%;
+}
+.details{
+    width: 100%;
+    margin: 20px auto;
+}
+span.alpha-1{
+    font-size: 50px;
+}
+span.apple{
+    font-size: 35px;
+    color: red;
+}
+td img{
+    width: 110px;
+}
+
+.row-1{
+    box-shadow:  rgb(78, 75, 75) 2px 4px 8px;
+    padding: 35%;
+    height: 100px;
+    margin-bottom: 550px;
+    text-align: center;
+}
+
+/* Ending The body here */
+
+/* Begin The Footer  */
+.top-button a img{
+    width: 15%;
+}
+.top-button{
+    text-align: center;
+    box-shadow: red 2px 4px 8px;
+}
