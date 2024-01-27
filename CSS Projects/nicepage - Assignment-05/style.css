@@ -1,0 +1,95 @@
+.body {
+    margin: 0;
+}
+
+.container {
+    background-image: linear-gradient(to right, #38384c, #f29cd5);
+    height: 100%;
+    padding-bottom: 5%;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    /* max-height: auto; */
+}
+
+.text-content h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 28pt;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5%;
+}
+
+.text-content p {
+    text-align: center;
+    font-size: 15pt;
+    word-spacing: 2px;
+    width: 90%;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+    /* height: 500px; */
+    /* height: 25%; */
+    margin-top: 5%;
+    margin-right: 5%;
+    padding: 4% 6% 4% 6%;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.box-1,
+.box-3 {
+    background-image: linear-gradient(to top, #f7a7d2, #f9e2a0);
+}
+
+.box-2 {
+    background-image: linear-gradient(to top, #f7a7d2, #b1d7f9);
+}
+
+hr {
+    border: 1px solid white;
+
+}
+
+button {
+    padding: 15px;
+    background-color: white;
+    border-radius: 50px;
+    width: 150px;
+    border: none;
+    margin-top: 15%;
+    font-weight: 800;
+    color: #444e77;
+}
+
+button:hover {
+    background-color: #d1d1d1;
+}
+
+button:focus {
+    background-color: #f7a7d2;
+}
