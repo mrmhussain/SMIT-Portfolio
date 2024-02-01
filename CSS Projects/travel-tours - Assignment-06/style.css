@@ -1,0 +1,34 @@
+body{
+    margin: 0 auto;
+    background-color: black;
+}
+.navbar{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 70px;
+    width: 100%;
+}
+/* .logo{
+    display: flex;
+    justify-content: left;
+} */
+.logo img{
+    margin-top: 25%;
+    margin-left: 25%;
+}
+.list-items{
+    background-color: red;
+    display: flex;
+    justify-content: right;
+    margin-left: 55%;
+    display: inline;
+
+}
+.list-items ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+}
