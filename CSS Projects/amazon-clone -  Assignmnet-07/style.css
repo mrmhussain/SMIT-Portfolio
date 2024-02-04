@@ -1,0 +1,310 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #cccccc;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Begin navbar here */
+.navbar{
+    background-color: #0f1111;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+}
+.nav-logo{
+    width: 113px;
+    height: 50px;
+}
+.logo{
+    background-image: url(./images/amazon_logo.png);
+    width: 113px;
+    height: 50px;
+    background-size: cover;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    background-color:#ffbf00;
+}
+/* Second Component */
+.nav-add{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+.add-1{
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 20%;
+}
+.add-2{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    margin-top: -8px;
+}
+.add-2 p{
+    margin-left: 10%;
+    margin-top: 1px;
+    font-size: 0.95rem;
+}
+/* Third Component */
+.search-main{
+    display: flex;
+    align-items: center;
+}
+.search-option select{
+    padding: 4px;
+    font-size: 0.85rem;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    height: 32px;
+    background-color: #e6e6e6;
+}
+.search-input{
+    font-size: 0.85rem;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #e6e6e6;
+}
+.search-input input{
+    font-size: 0.95rem;
+    height: 20px;
+    padding: 6px;
+    border: none;
+}
+.search-icon{
+    color: black;
+    width: 50%;
+    background-color: #ffbf00;
+    padding: 7px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+}
+/* Forth Component */
+.sign-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sign-in p{
+    color: #e6e6e6;
+    font-size: smaller;
+}
+.sign-in select{
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-weight: 800;
+    font-size: small;
+    margin-top: -10px;
+}
+/* Fifth Component */
+.return-order{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.returns{
+    color: #e6e6e6;
+    font-size: smaller;
+}
+.orders{
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-weight: 800;
+    font-size: small;
+    margin-top: -10px;
+}
+/* Fifth Component */
+.cart{
+    color: white;
+    margin-top: 30px;
+    width: 20px;
+    height: 50px;
+}
+/* End Navbar here */
+
+/* Begin-Sub Nav from */
+.sub-nav{
+    background-color: #0f1111;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+}
+.option-icon{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2%;
+    align-items: center;
+}
+.option-icon p{
+    margin-left: 10px;
+}
+.list-items{
+    display: flex;
+    justify-content: flex-start;
+}
+.list-items ul{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+.list-items ul li{
+    margin-left: 25px;
+}
+/* End-Sub Nav from */
+
+/* Begin Hero Section */
+.hero-bg{
+    background-image: url(./images/hero-section.jpg);
+    background-size: cover;
+    height: 300px;
+}
+.hero-bg:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+.main-boxes{
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.box-1{
+    width: 300px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 2px solid white;
+    margin-bottom: 40px;
+}
+.box-1 p{
+    color: black;
+    font-size: large;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box-1 img:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+.box-1 a{
+    color: aqua;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: small;
+    text-decoration: none;
+}
+.box-1 a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+/* End Hero Section here */
+.b-top{
+    background-color: orange;
+    padding-bottom: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.b-top a{
+    color: white;
+    text-decoration: none;
+}
+.b-top:hover{
+    background-color: #0f1111;
+}
+/* Begin Footer here */
+.footer{
+    background-color: #0f1111;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.col-1 h2{
+    color: white;
+    text-align: start;
+    margin-left: 15px;
+    font-size: large;
+}
+.col-1 ul{
+    margin-left: -25px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #DDDDDD;
+    font-size: small;
+    line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 785px) {
+    .navbar{
+        display: flex;
+        flex-flow: row nowrap;
+        width: max-content;
+        justify-content: space-evenly;
+    }
+    header{
+        width: max-content;
+    }
+    .hero-bg, .main-boxes, .b-top, .footer{
+      width: 780px;
+
+    }
+    .box-1{
+        width: 250px;
+    }
+    .box-1 img{
+        width: 225px;
+    }
+}
+@media  screen and (max-width: 900px) {
+    .main-boxes{
+        width: 780px;
+  
+    }
+    .box-1{
+        width: 250px;
+    }
+    .box-1 img{
+        width: 225px;
+    }
+}
