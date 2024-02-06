@@ -1,0 +1,92 @@
+body{
+    background-color: #c9c9b6;
+}
+.bg-box{
+    height: 150vh;
+    width: 65%;
+    background-color: #848475;
+    float: right;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    position: relative;
+}
+.bg-img img{
+    width: 70%;
+    position: absolute;
+    top: 20%;
+    left: 16%;
+}
+.boxes{
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    align-items: center;
+    top: 75%;
+    left: 25%;
+}
+.box-1{
+    margin-right: 10%;
+    margin-left: -20%;
+}
+.box-2, .box-3{
+    margin-right: 10%;
+}
+.box{
+    width: 25%;
+    padding: 5%;
+    background-color: white;
+
+}
+.box:hover{
+    transform: scale(1.1);
+    transition: 1.2s;
+    cursor: default;
+    background-color: black;
+}
+.box i{
+    color: #848475;
+    font-size: 60px;
+}
+.box h2{
+    color: #848475;
+    font-size: large;
+    font-weight: 900;
+}
+.box p{
+    color: #848475;
+    font-size: 14pt;
+    word-spacing: 1px;
+}
+.box a{
+    color: #848475;
+    font-weight: 900;
+    text-decoration: underline #848475 3px;
+}
+.box a:hover{
+    text-decoration: underline white 5px;
+}
+
+@media screen and (max-width: 480px){
+    .bg-box{
+        height: 220vh;
+    }
+    .boxes{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .box{
+        width: 60%;
+        margin-left: -43%;
+    }
+    .box-1{
+        margin-top: -75%;
+        
+    }
+    .box-1,.box-2{
+        margin-bottom: 35px;
+    }
+}
