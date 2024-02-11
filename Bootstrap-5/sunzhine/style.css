@@ -1,0 +1,17 @@
+.nav-link:hover{
+    border-bottom: 4px solid green;
+    padding: 0;
+}
+
+
+@media screen and (max-width:320px){
+    .fa-bars{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:768px){
+    .fa-bars{
+        display: none;
+    }
+}
