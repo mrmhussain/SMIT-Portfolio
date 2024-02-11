@@ -2,6 +2,29 @@
     border-bottom: 4px solid green;
     padding: 0;
 }
+.hero{
+    font-family: "Aldrich", sans-serif;
+    color: #111111;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.6;
+    font-size: 34pt;
+    margin-top: 8%;            
+}
+.list-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.list-group li{
+    border: none;
+    
+}
+
+
+
+
 
 
 @media screen and (max-width:320px){
