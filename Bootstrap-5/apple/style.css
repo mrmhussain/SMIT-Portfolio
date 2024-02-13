@@ -69,10 +69,6 @@ html{
 }
 
 
-
-
-
-
 @media screen and (max-width: 425px) {
     .nav-icons{
         position: fixed;
@@ -107,7 +103,7 @@ html{
         display: flex;
         flex-direction: column;
     }
-
+}
 @media screen and (max-width: 768px) {
     .nav-icons{
         position: fixed;
