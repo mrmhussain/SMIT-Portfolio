@@ -1,0 +1,121 @@
+
+.bg-nav{
+    background-color: rgba(0, 0, 0, 0.918);
+    color: rgba(255, 255, 255, 0.438);
+}
+.navbar-toggler{
+    background-image: url(images/navbar-toggle-icon.png);
+    background-size: cover;
+    height: 8%;
+    width: 2%;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: 1;
+    right: 5px;
+    top: 4%;
+}
+.hero-1{
+    background-image: url(./images/hero_iphone15pro.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+}
+.hero-1 h1{
+    margin-top: 6%;
+    margin-bottom: 2%;
+}
+html{
+    scroll-behavior: smooth;
+    }
+
+.links a{
+    color: #2997ff;
+}
+.hero-2{
+    background-image: url(images/hero_apple.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    margin: auto;
+}
+.hero-3{
+    background-image: url(images/hero_valentines_day_2024.jpg);
+    background-size: cover;
+    background-position: fixed;
+    height: 90vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+.footer-list{
+    list-style: none;
+    color: rgba(0, 0, 0, 0.747);
+}
+.footer-list li a{
+    color: rgba(0, 0, 0, 0.712);
+    text-decoration: none;
+    font-size: small;
+}
+.footer-list li a:hover{
+    text-decoration: underline;
+}
+.accordion{
+    display: none;
+}
+.accordion-item,.accordion-button {
+    background-color: rgb(238, 238, 238);
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 425px) {
+    .nav-icons{
+        position: fixed;
+        top: 6%;
+        right: 10%;
+    }
+    .hero-1{
+        background-image: url(images/hero_iphone15pro__i70z9oz3hj2i_small_2x.jpg);
+        background-size: cover;
+        height: 85vh;
+        position: relative;
+    }
+    .hero-1 h3{
+        font-size: large;
+    }
+    .links a {
+        font-size: x-small;
+    }
+    .hero-2{
+        background-image: url(./images/hero_apple_vision_pro_avail__ecthwv10twsy_small.jpg);
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+    }
+    .box img{
+        width: 300px;
+        margin: auto;
+        margin-bottom: 15px;
+        position: relative;
+    }
+    .accordion{
+        display: flex;
+        flex-direction: column;
+    }
+
+@media screen and (max-width: 768px) {
+    .nav-icons{
+        position: fixed;
+        top: 6%;
+        right: 5%;
+    }
+    .accordion{
+        display: flex;
+        flex-direction: column;
+    }
+}
