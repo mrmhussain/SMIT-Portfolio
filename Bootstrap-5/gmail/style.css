@@ -1,0 +1,28 @@
+.navbar{
+    background-color: #f6f8fc;
+}
+.search-form{
+    background-color: #eaf1fb;
+    padding: 3px;
+    border-radius: 15px;
+    color: rgba(0, 0, 0, 0.452);
+}
+.search-form:focus-within{
+    background-color: white;
+    border-radius: 15px;
+}
+
+
+@media screen and (max-width:425px) {
+    .nav-btn{
+        display: none;
+    }
+    .navbar-brand{
+        width: 10%;
+        margin-right: 2%;
+    }
+    .nav-icons{
+        width: 30%;
+        margin-left: 20px;
+    }
+}
