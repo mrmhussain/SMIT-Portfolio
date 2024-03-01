@@ -9,33 +9,37 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
   <div class="hero-section">
     <video autoplay muted loop src="./images/bg-video.mp4" type="video/mp4" class="bg-video"></video>
-    <nav class="navbar navbar-expand-lg navs d-md-flex">
+    <nav class="navbar navbar-expand-lg d-md-flex">
       <div class="container">
-        <a class="navbar-brand text-white ms-lg-5 ms-md-1 ms-sm-0 fs-5" href="#">Muhammad <span
+        <a class="navbar-brand text-white ms-lg-4 ms-md-1 ms-sm-0 fs-5" href="./index.html">Muhammad <span
             class="text-warning">Hussain</span></a>
         <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
-            <li class="nav-item fs-5 me-5">
+        <div class="collapse navbar-collapse text-center text-warning" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-1">
+            <li class="nav-item fs-5 me-3">
               <a class="nav-link text-white nav-li" href="#">Home</a>
             </li>
-            <li class="nav-item fs-5 me-5">
+            <li class="nav-item fs-5 me-3">
               <a class="nav-link text-white nav-li" href="#">About Me</a>
             </li>
-            <li class="nav-item fs-5 me-5 nav-li">
-              <a class="nav-link text-white" href="#">My Portfolio</a>
+            <li class="nav-item fs-5 me-3">
+              <a class="nav-link text-white nav-li" href="#">My Skills</a>
             </li>
-            <li class="nav-item fs-5 me-5 nav-li">
-              <a class="nav-link text-white" href="#">Contact Me</a>
+            <li class="nav-item fs-5 me-3">
+              <a class="nav-link text-white nav-li" href="./index.html">My Portfolio</a>
+            </li>
+            <li class="nav-item fs-5 me-3">
+              <a class="nav-link text-white nav-li" href="#form">Contact Me</a>
             </li>
         </div>
       </div>
@@ -43,53 +47,269 @@
     <div class="hero-details">
       <img src="./images/profile.jpg" alt="" width="240px" height="240px" class="rounded-pill img-border">
       <h1 class="text-center mb-2 fs-1 text-white">MUHAMMAD <span class="text-warning">HUSSAIN</span></h1>
-      <h3 class="text-center mb-3 fs-3 animate__heartBeat text-white"><span class="text-warning">Full Stack</span> Developer</h3>
-      <p class="fs-6 text-center animate__animated animate__slideInLeft text-white">🚀 Passionate Full Stack Developer & Graphic
+      <h3 class="text-center mb-3 fs-3 animate__heartBeat text-white"><span class="text-warning">Full Stack</span>
+        Developer</h3>
+      <p class="fs-6 text-center animate__animated animate__slideInLeft text-white">🚀 Passionate Full Stack Developer &
+        Graphic
         Designer | Computer Science Enthusiast👨‍💻</p>
     </div>
-
   </div>
+  <!-- MY SKILLS SECTION BEGIN HERE -->
+  <div class="skills mt-6 container">
+    <h1 class="text-center mb-4">MY SKILLS</h1>
+    <h4 class="text-decoration-underline mb-4" data-aos="zoom-in-up">WEB DEVELOPMENT SKILLS</h4>
+    <div class="d-flex align-items-center justify-content-evenly" data-aos="flip-right">
+      <p>HTML 5</p>
+      <div class="progress w-50 mb-3" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+        aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-warning" style="width: 90%"></div>
+      </div>
+    </div>
 
+    <div class="d-flex align-items-center justify-content-evenly" data-aos="flip-left">
+      <p>CSS 3</p>
+      <div class="progress w-50 mb-3" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+        aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-warning" style="width: 75%"></div>
+      </div>
+    </div>
 
+    <div class="d-flex align-items-center justify-content-evenly" data-aos="flip-right">
+      <p>Bootstrap 5</p>
+      <div class="progress w-50 mb-3" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+        aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-warning" style="width: 90%"></div>
+      </div>
+    </div>
 
+    <div class="d-flex align-items-center justify-content-evenly" data-aos="flip-left">
+      <p>JAVASCRIPT</p>
+      <div class="progress w-50 mb-3" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+        aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-warning" style="width: 50%"></div>
+      </div>
+    </div>
+    <h4 class="text-decoration-underline mb-4 mt-3" data-aos="zoom-in-up">GRAPHIC DESIGNING SKILLS</h4>
+    <div class="d-flex align-items-center justify-content-evenly" data-aos="flip-right">
+      <p>ADOBE PHOTOSHOP</p>
+      <div class="progress w-50 mb-3" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+        aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-warning" style="width: 75%"></div>
+      </div>
+    </div>
 
+    <div class="d-flex align-items-center justify-content-evenly" data-aos="flip-left">
+      <p>ADOBE ILLUSTRATOR</p>
+      <div class="progress w-50 mb-3" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+        aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-warning" style="width: 90%"></div>
+      </div>
+    </div>
 
+    <div class="d-flex align-items-center justify-content-evenly" data-aos="flip-right">
+      <p>CANVA</p>
+      <div class="progress w-50 mb-3" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+        aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-warning" style="width: 90%"></div>
+      </div>
+    </div>
 
-  <!-- <video autoplay muted loop src="./images/bg-video.mp4" type="video/mp4" class="bg-video"></video>
-     <div class="hero-content d-flex align-items-center justify-content-evenly">
-        <div class="profile justify-content-start">
-            <img src="./images/profile.jpg" alt="" width="240px" height="280px" class="border border-3">
+    <div class="d-flex align-items-center justify-content-evenly" data-aos="flip-left">
+      <p>FIGMA </p>
+      <div class="progress w-50 mb-3" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+        aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-warning" style="width: 75%"></div>
+      </div>
+    </div>
+  </div>
+  <!-- MY SKILLS SECTION END HERE -->
+
+  <!-- MY PORTFOLIO BEGIN HERE -->
+  <div class="bg2-container">
+    <div class="container d-lg-flex justify-content-evenly align-items-center mt-4 flex-wrap portfolio">
+      <div class="card mb-5" data-aos="zoom-in" style="width: 18rem;">
+        <img src="./images/apple.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Apple Clone</h5>
+          <p class="card-text">For Live preview or Source Code Click on the button Below</p>
+          <a href="https://github.com/mrmhussain/SMIT-Portfolio/tree/master/Bootstrap-5/apple" target="_blank"
+            class="btn btn-warning">Source Code</a>
+          <a href="https://dainty-sunshine-369ad3.netlify.app" class="btn btn-success" target="_blank">Live Preview</a>
         </div>
-         <div class="content justify-content-end">
-            <h1 class="text-center mb-2 fs-1">MUHAMMAD <span class="text-warning">HUSSAIN</span></h1>
-            <h3 class="text-center mb-3 fs-3 animate__heartBeat"><span class="text-warning">Full Stack</span> Developer</h3>
-            <p class="fs-6 text-center animate__animated animate__slideInLeft">🚀 Passionate Full Stack Developer & Graphic Designer | Computer Science Enthusiast👨‍💻</p>
-         </div>      
-     </div> -->
+      </div>
 
-  <!-- <div class="container">
-        <p>Hello! 👋 I'm Muhammad Hussain, on an exciting journey in the world of computer science, currently pursuing my intermediate studies. Eager to share my passion for technology and creativity, I am actively learning the ropes of full stack development and graphic design.
+      <div class="card mb-5" data-aos="zoom-in" style="width: 18rem;">
+        <img src="./images/ABC-Book.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">ABC Book</h5>
+          <p class="card-text">For Live preview or Source Code Click on the button Below</p>
+          <a href="https://github.com/mrmhussain/SMIT-Portfolio/tree/master/CSS%20Projects/ABC%20BOOK%20-%20Assignment-01"
+            class="btn btn-warning" target="_blank">Source Code</a>
+          <a href="https://peaceful-sunburst-d094b2.netlify.app" class="btn btn-success" target="_blank">Live
+            Preview</a>
+        </div>
+      </div>
 
-            💡 Exploring Full Stack Development:
-            Embarking on the path of full stack development, I'm diving into the intricacies of languages like Html5, Css3,MERN STACK and frameworks such as Bootstrap 5, material Ui, Tailwind CSS. Every coding challenge is an opportunity to grow, and I'm relishing every moment of this hands-on learning experience.
-            
-            🎨 Delving into Graphic Design:
-            In the realm of graphic design, I'm experimenting with turning concepts into visual delights. From learning design principles to hands-on practice with tools like Adobe Photoshop, Adobe Illustrator, Adobe Indesign, Inpage, Figma and Canva.  I'm on a mission to create visually appealing and user-friendly designs.
-            
-            📚 Computer Science Intermediate:
-            While I navigate through coding and design projects, I'm also actively pursuing my intermediate studies in computer science. This academic foundation is complementing my practical experiences, providing a holistic understanding of the tech landscape.
-            
-            🌐 Enthusiastic Learner | Curious Explorer:
-            Every line of code and design element tells a story, and I'm here to explore and learn from each one. As I absorb knowledge, I'm committed to effective communication, embracing the collaborative spirit of the tech community.
-            
-            Let's connect and learn together! 🚀</p>
-     </div> -->
+      <div class="card mb-5" data-aos="zoom-in" style="width: 18rem;">
+        <img src="./images/facebook-loginPage.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Facebook Login Page</h5>
+          <p class="card-text">For Live preview or Source Code Click on the button Below</p>
+          <a href="https://github.com/mrmhussain/SMIT-Portfolio/tree/master/CSS%20Projects/facebook_login-%20Assignment-03"
+            class="btn btn-warning" target="_blank">Source Code</a>
+          <a href="https://dazzling-pavlova-1d2855.netlify.app" class="btn btn-success" target="_blank">Live Preview</a>
+        </div>
+      </div>
+
+      <div class="card mb-5" data-aos="zoom-in" style="width: 18rem;">
+        <img src="./images/sunzhine.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sunzhine Clone</h5>
+          <p class="card-text">For Live preview or Source Code Click on the button Below</p>
+          <a href="https://github.com/mrmhussain/SMIT-Portfolio/tree/master/Bootstrap-5/sunzhine"
+            class="btn btn-warning" target="_blank">Source Code</a>
+          <a href="https://jolly-otter-6a128c.netlify.app" class="btn btn-success" target="_blank">Live Preview</a>
+        </div>
+      </div>
+
+      <div class="card mb-5" data-aos="zoom-in" style="width: 18rem;">
+        <img src="./images/upwork.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Upwork Clone</h5>
+          <p class="card-text">For Live preview or Source Code Click on the button Below</p>
+          <a href="https://github.com/mrmhussain/SMIT-Portfolio/tree/master/CSS%20Projects/upwork%20clone-%20Assignment-02"
+            class="btn btn-warning" target="_blank">Source Code</a>
+          <a href="https://unrivaled-croissant-597ee6.netlify.app" class="btn btn-success" target="_blank">Live
+            Preview</a>
+        </div>
+      </div>
+
+      <div class="card mb-5" data-aos="zoom-in" style="width: 18rem;">
+        <img src="./images/color-palette.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Color Pallette</h5>
+          <p class="card-text">For Live preview or Source Code Click on the button Below</p>
+          <a href="https://github.com/mrmhussain/SMIT-Portfolio/tree/master/CSS%20Projects/flatui_colors%20-%20Assignment-04"
+            class="btn btn-warning" target="_blank">Source Code</a>
+          <a href="https://silly-biscotti-74c96c.netlify.app" class="btn btn-success" target="_blank">Live Preview</a>
+        </div>
+      </div>
+
+      <div class="card mb-5" data-aos="zoom-in" style="width: 18rem;">
+        <img src="./images/Amazon.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Amazon Clone</h5>
+          <p class="card-text">For Live preview or Source Code Click on the button Below</p>
+          <a href="https://github.com/mrmhussain/SMIT-Portfolio/tree/master/CSS%20Projects/amazon-clone%20-%20%20Assignmnet-07"
+            class="btn btn-warning" target="_blank">Source Code</a>
+          <a href="https://clever-trifle-f0c6e6.netlify.app" class="btn btn-success" target="_blank">Live Preview</a>
+        </div>
+      </div>
+
+      <div class="card mb-5" data-aos="zoom-in" style="width: 18rem;">
+        <img src="./images/Interior.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Interior</h5>
+          <p class="card-text">For Live preview or Source Code Click on the button Below</p>
+          <a href="https://github.com/mrmhussain/SMIT-Portfolio/tree/master/CSS%20Projects/interior-studio%20-%20Assignment-08"
+            class="btn btn-warning" target="_blank">Source Code</a>
+          <a href="https://profound-arithmetic-07a6ee.netlify.app" class="btn btn-success" target="_blank">Live
+            Preview</a>
+        </div>
+      </div>
+
+      <div class="card mb-5" data-aos="zoom-in" style="width: 18rem;">
+        <img src="./images/nicePage.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nice Page</h5>
+          <p class="card-text">For Live preview or Source Code Click on the button Below</p>
+          <a href="https://github.com/mrmhussain/SMIT-Portfolio/tree/master/CSS%20Projects/nicepage%20-%20Assignment-05"
+            class="btn btn-warning" target="_blank">Source Code</a>
+          <a href="https://loquacious-cranachan-11d137.netlify.app" class="btn btn-success" target="_blank">Live
+            Preview</a>
+        </div>
+      </div>
+
+      <div class="card mb-5" data-aos="zoom-in" style="width: 18rem;">
+        <img src="./images/Travel.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Travel Page</h5>
+          <p class="card-text">For Live preview or Source Code Click on the button Below</p>
+          <a href="https://github.com/mrmhussain/SMIT-Portfolio/tree/master/CSS%20Projects/Travel%20-%20Assignment-06"
+            class="btn btn-warning" target="_blank">Source Code</a>
+          <a href="#" class="btn btn-success">Live Preview</a>
+        </div>
+      </div>
+
+      <div class="card mb-5" data-aos="zoom-in" style="width: 18rem;">
+        <img src="./images/time-table.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Time Table</h5>
+          <p class="card-text">For Live preview or Source Code Click on the button Below</p>
+          <a href="https://github.com/mrmhussain/SMIT-Portfolio/tree/master/HTML%20Projects/timetable%20project%20-04 target="
+            _blank"" class="btn btn-warning" target="_blank">Source Code</a>
+          <a href="#" class="btn btn-success">Live Preview</a>
+        </div>
+      </div>
+
+      <div class="card mb-5" data-aos="zoom-in" style="width: 18rem;">
+        <img src="./images/periodic-table.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Periodic Table</h5>
+          <p class="card-text">For Live preview or Source Code Click on the button Below</p>
+          <a href="https://github.com/mrmhussain/SMIT-Portfolio/tree/master/HTML%20Projects/periodic%20table%20project%20-02"
+            class="btn btn-warning" target="_blank">Source Code</a>
+          <a href="#" class="btn btn-success">Live Preview</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- MY PORTFOLIO END HERE -->
+
+  <!-- MY CONTACT BEGIN HERE -->
+  <div class="container col-lg-8 col-md-8 col-sm-12 mt-5" data-aos="fade-up-left">
+    <form action="" id="#form">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Any Message?</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-warning">Submit</button>
+  </div>
+  </form>
+  <div class="social-icons d-flex flex-wrap align-items-center justify-content-evenly col-lg-12 col-md-12 col-sm-12 mt-3">
+    <a href="https://www.instagram.com/mr_muhammad_hussain/" target="_blank" ><img src="./images/instgram.jpg"
+        width="50px"></a>MY INSTAGRAM
+    <a href="https://wa.me/03160108183" target="_blank"><img src="./images/whatsapp.png" width="60px"></a>MY WHATSAPP
+    <a href="https://github.com/mrmhussain" target="_blank"><img src="./images/gitub.png" width="50px"></a>MY GITUB
+    <a href="https://www.linkedin.com/in/muhammad-hussain-a39146209/" target="_blank"><img src="./images/linkdin.png"
+        width="70px"></a> MY LINKEDIN
+    <a href="https://www.facebook.com/mhussainmyousuf1/" target="_blank"><img src="./images/facebook.png"
+        width="50px"></a> MY FACEBOOK
+  </div>
+  <!-- MY CONTACT ENDS HERE -->
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+  </script>
+
 </body>
 
 </html>
