@@ -1,0 +1,19 @@
+
+.search-btn{
+    background-color: #f8f8f8;
+}
+
+
+@media screen and (max-width:470px) {
+    .navbar{
+
+        overflow: auto;
+    }
+    .form-control{
+        width: 200px;
+    }
+    .nav-icons{
+        margin-left: 100px;
+    }
+
+}
