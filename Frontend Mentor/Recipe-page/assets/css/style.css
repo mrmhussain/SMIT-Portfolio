@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Outfit;
+    src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    font-family: Young-serif;
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+  }
+
+body{
+    background-color: antiquewhite;
+}
+.recipe-box{
+    height: auto;
+    background-color: white;
+    border-radius: 2%;
+    padding: 5%;
+}
+.recipe-img{
+    border-radius: 2% !important;
+}
+h2,h3{
+    font-family: 'Young-serif';
+    margin-top: 2%;
+}
+h4{
+    color: #712e49;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+h3{
+    color: #804433;
+}
+tr .td-font{
+    color: #804433;
+    font-weight: 500;
+}
+li::marker {
+    color: #804433;
+}
+.preparation-time{
+    background-color: #fff7fc;
+    padding: 1%;
+    border-radius: 2%;
+}
+.preparation-time ul li::marker{
+    color: #712e49;
+}

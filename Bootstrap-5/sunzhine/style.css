@@ -58,7 +58,17 @@
     transition: 2s;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
 
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+}
 
 
 @media screen and (max-width:320px){
