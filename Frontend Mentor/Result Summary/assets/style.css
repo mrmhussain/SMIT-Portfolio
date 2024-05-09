@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.row{
+    height: 100vh;
+    width: 100%;
+}
+.left{
+    background-color: #5b3efa;
+    border-radius: 5%;
+    padding: 2%;
+}
+.your-result{
+    color: #dacfff;
+}
+.circle{
+    border-radius: 50%;
+    background-color: #4a24cf;
+    height: auto;
+    width: 60%;
+    padding: 8%;
+}
+.circle p{
+    color: #dacfff;
+}
+.left-last-para{
+    color: #dacfff;
+    font-size: small;
+}
+.visual-left-content p{
+    color: #4a24cf;
+}
+.reaction{
+    background-color: #fff6f5;
+    border-radius: 7px;
+}
+.memory{
+    background-color: #fffbf2;
+    border-radius: 7px;
+}
+.verbal{
+    background-color: #f2fafa;
+    border-radius: 7px;
+}
+.visual{
+    background-color: #f3f3fd;
+    border-radius: 7px;;
+}
