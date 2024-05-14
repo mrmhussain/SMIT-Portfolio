@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Counter App</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  #counter {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  #counter.even {
+    color: green;
+  }
+  #counter.odd {
+    color: red;
+  }
+</style>
+</head>
+<body>
+  <h1>Counter App</h1>
+  <div id="counter">0</div>
+  <button id="increment">Increment</button>
+  <button id="decrement">Decrement</button>
+  <button id="reset">Reset</button>
+  <div id="history"></div>
+
+  <script>
+    let count = 0;
+    const counter = document.getElementById('counter');
+    const incrementButton = document.getElementById('increment');
+    const decrementButton = document.getElementById('decrement');
+    const resetButton = document.getElementById('reset');
+
+    function updateCounter() {
+      counter.textContent = count;
+      counter.className = count % 2 === 0 ? 'even' : 'odd';
+    }
+
+    incrementButton.addEventListener('click', () => {
+      count++;
+      updateCounter();
+      addToHistory('Incremented to ' + count);
+    });
+
+    decrementButton.addEventListener('click', () => {
+      if (count > 0) {
+        count--;
+        updateCounter();
+        addToHistory('Decremented to ' + count);
+      }
+    });
+
+    resetButton.addEventListener('click', () => {
+      count = 0;
+      updateCounter();
+      addToHistory('Reset to ' + count);
+    });
+  </script>
+</body>
+</html>
