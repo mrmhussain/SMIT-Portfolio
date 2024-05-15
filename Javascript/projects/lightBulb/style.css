@@ -1,0 +1,32 @@
+.container{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    color: red;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+#btn_on{
+    padding: 2%;
+    color: black;
+    background-color: yellow;
+    border: none;
+    border-radius: 10%;
+    font-weight: 700;
+}
+#btn_off{
+    padding: 2%;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 10%;
+    font-weight: 700;
+}
